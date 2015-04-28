@@ -3,7 +3,7 @@ import decimal
 import matplotlib.pyplot as plt
 
 def drange(start, stop, step):
-    while start <= stop:
+    while start < stop:
         yield start
         start += step
 
